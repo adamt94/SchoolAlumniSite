@@ -1,0 +1,390 @@
+/* 
+    Document   : style2
+    Created on : 18-Mar-2014, 12:36:37
+    Author     : ypf12pxu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*messages in own tab
+different panels for sent received
+browse and upload picture buttons
+schools another tab
+.............................................................
+enrollments page under prbly control panel on the left under the picture god dammit or new tab
+*/
+root { 
+
+    display: block;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+
+    background-color: #3AAAFA;
+
+    color: #666666;
+
+    font-family: Arial, Helvetica, Verdana, Sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.5em;
+
+}
+
+h1{
+
+    color: #666666;
+
+    font-size: 25px;
+
+}
+
+#page_container{
+
+    width: 1060px; /*Width of main container*/
+
+    margin: 0 auto; /*Center container on page*/
+
+}
+
+#header{
+
+    margin-top: 50px;
+
+    height: 80px; 
+
+    border-radius: 20px 20px 0px 0px;
+
+    background-color: lightblue;
+
+}
+
+#logout{
+
+    position: relative;
+
+    margin-right: 50px;
+
+    margin-top: 20px;
+
+    float:right;
+
+}
+p.logout{
+      position: relative;
+
+    margin-right: 50px;
+
+    margin-top: 20px;
+
+    float:right;
+    
+}
+
+#nav ul{
+
+    list-style-type: none;
+
+    border-radius: 20px 20px 0 0;
+
+    height: 80px;
+
+    width: 1060px;
+
+    padding:20px 0px;
+
+    background-color: #A3D8FF;
+
+    display: block;
+
+}
+
+#nav li{
+
+    display: block;
+
+    float: left;
+
+}
+
+#nav li {/*a*/
+
+    position: relative;
+
+    text-decoration: none;
+
+    padding: 5px 50px;
+
+    padding-top: 10px;
+
+    font-size: 29px;
+
+    color: #fff;
+
+}
+
+#nav li a{
+
+    text-decoration: none;
+
+    padding: 13px;
+
+    /* color: white;*/
+
+}
+#nav li.notactive{
+    margin-top:-10px;
+
+    height: 55px;
+
+    border-radius: 20px 20px 0 0; 
+
+    color: white;
+
+    background-color: #28ad63;
+
+    text-decoration: none; 
+
+}
+
+#nav li.active{
+
+    margin-top:-10px;
+
+    height: 55px;
+
+    border-radius: 20px 20px 0 0; 
+
+    color: #D21D05;
+
+    background-color: white;
+
+    text-decoration: none; 
+
+} 
+
+#center{
+
+    float:left;
+
+    width:500px;
+   min-height: 650px;
+    height:auto;
+    overflow-y: visible;
+    padding:10px;
+    
+
+    background:white;
+
+}
+#centerbox{
+    background-color: #E5E4DF;
+    width: 470px;
+    height: auto;
+    padding:15px;
+    margin-left: -5px;
+
+}
+#position{
+    margin-top: 15px;
+}
+#center textarea {
+    overflow:auto; 
+    width: 455px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+
+}
+#center input{
+
+
+    background-color: #28ad63;
+
+    color: #fff;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 4px 0;
+    float: right;
+
+}
+#center table{
+    overflow:auto; 
+    width: 455px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+
+}
+
+#center input:hover{
+    background-color: #33cc77;
+}
+
+#leftsidebar{
+
+    float:left;
+
+    width:250px;
+
+    height:650px;
+
+    padding:10px;
+
+    background:white;
+
+}
+#leftsidebar input{
+    border : 0px;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    border-radius:0px;
+    text-decoration: none;
+    width:90px;
+
+}
+
+
+
+#rightsidebare{
+
+    float:right;
+    text-align: center;
+    width:250px;
+
+    height:650px;
+
+    padding:10px;
+
+    background:#DAD8D8;
+
+}
+ table{
+       border-collapse:collapse;
+    margin-left: -9px;
+    width: 269px;
+   
+    
+}
+
+
+
+#buttona a{
+
+    text-decoration: none;
+
+    background-color: #33cc77;
+
+    color: #fff;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 4px 0;
+
+    width: 100px;
+
+}
+
+#buttona a:hover{
+
+    background-color: #28ad63;
+
+}
+
+#buttonb a{
+
+    text-decoration: none;
+
+    background-color: #28ad63;
+
+    color: #fff;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 4px 0;
+    float: right;
+    width: 110px;
+
+}
+
+#buttonb a:hover{
+
+    background-color: #33cc77;
+
+
+
+}
+a.buttona{
+      text-decoration: none;
+
+    background-color: #33cc77;
+
+    color: #fff;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 4px 0;
+
+    width: 100px;
+    
+}
+a.buttona:hover{
+        background-color: #28ad63;
+    
+}
+
+#center table
+{
+    display: block;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+    overflow: auto;
+    overflow-y: scroll;
+
+}
+#center table, td, th
+{
+    background-color: white;
+    width: 450px;
+
+    text-align: center;
+    padding:5px;
+}
+td a{
+    color:#666666; 
+
+}
+th
+{
+    background-color:#28ad63;
+    color:white;
+}
+
+
+#footer{
+ height: 500px;
+ width:  450px;
+ color: #3AAAFA;
+}
+img{
+    height:280px;
+    width: 250px;
+    border-style: solid;
+    border-width: 2px;
+}

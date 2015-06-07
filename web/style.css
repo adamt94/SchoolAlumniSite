@@ -1,0 +1,160 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2014, 8:38:09 PM
+    Author     : adam
+*/
+/*--------index page body-----*/
+body {
+    /* background:  url(skulls1.png) repeat;*/
+    background-color: #3AAAFA;
+    color: #000;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+/*--- gets rid of input default style===*/
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login {
+
+    margin: 50px auto;
+    width: 400px;
+    float: left;
+    margin-top: 8%;
+    height: 500px;
+    margin-left:  65%;
+
+}
+/* background of tabs*/
+#nav ul{
+    list-style-type: none;
+
+    border-radius: 20px 20px 0 0;
+    height: 50px;
+    width: 400px;
+    padding:2px 0px;
+    margin-top: -20px;
+    background-color: #A3D8FF;
+
+
+    display: block;
+
+
+}
+#nav li {
+    display: block;
+    float: left;
+
+
+
+
+
+
+
+}
+/* text of tab*/
+#nav li a{
+    position: relative;
+    text-decoration: none;
+    top:  13.5px;
+    padding: 9px 30px;
+
+
+    font-size: 29px;
+   
+
+}
+
+#nav li.active
+
+{
+    margin-top:-2px;
+    height: 54px;
+    border-radius: 20px 0 0 0;  
+    color: #E5E4DF;
+    background-color: #E5E4DF;
+    text-decoration: none;
+}
+#nav li.active2{
+    margin-top:-2px;
+    height: 54px;
+    border-radius: 0 20px 0 0;  
+    color: #D21D05;
+    background-color: #E5E4DF;
+    text-decoration: none;
+}
+
+
+#login  {
+    background-color: #E5E4DF;
+
+    border-radius: 20px 20px 20px 20px;/*curves the edges of box*/
+
+}
+
+#login  p {
+    color: #33cc77;
+    margin-top:  5px;
+    margin-left: 20px;
+}
+
+
+
+#login  input {
+
+    border-radius: 2px;
+    
+}
+
+#login  input[type="text"], #login  input[type="password"] {
+    background-color: #eee;
+    color: #777;
+    padding: 4px 10px;
+    width: 328px;
+}
+
+#login  input[type="submit"] {
+    background-color: #33cc77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    width: 100px;
+}
+
+#login  input[type="submit"]:hover {
+    background-color: #28ad63;
+}
+
+#indexcontent{
+    float: left;
+    width: 300px;
+    margin-top:  -200px;
+}
+#logo{
+    margin-top: -600px;
+    margin-left: 200px;
+    
+    float: left;
+    width: 550px;
+    height: 550px;
+    background: url(schoolalumnisite.png);
+}
+
+
+
+
+
